@@ -24,7 +24,7 @@ public class loginServlet extends HttpServlet{
           
             HttpSession httpSession = req.getSession();
             httpSession.setAttribute("uname", username);
-            RequestDispatcher rd = req.getRequestDispatcher("dis");
+            RequestDispatcher rd = req.getRequestDispatcher("disp");
             rd.forward(req, resp);
         }
 		else {
