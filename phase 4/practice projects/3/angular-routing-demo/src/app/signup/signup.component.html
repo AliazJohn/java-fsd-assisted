@@ -1,0 +1,13 @@
+<h2>CREATE ACCOUNT</h2>
+    <form [formGroup]="loginRef" (ngSubmit)="createAccount()">
+    <label> EmailId </label>
+    <input type="email" formControlName="email">
+    <label> Password </label>
+    <input type="password" formControlName="pass"><br><br>
+    <input type="submit" value="SUBMIT">&nbsp;
+    <input type="reset" value="RESET">
+</form>
+<br>
+<span style="color: red;">{{msg}}</span>
+<br>
+<a routerLink="signin">LOGININ</a>
