@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+    stages {
+        stage('Check Docker Version') {
+            steps {
+                    sh "docker --version"
+            }
+        }
+        stage('Pull Image From DockerHub') {
+            steps {
+                    sh "docker pull aliyasjohn/portfolio:latest"
+                    sh "docker images"
+            }
+        }
+        stage('Docker Swarm') {
+            steps {
+                    sh "docker swarm init"
+                    sh "docker node ls"
+            }
+        }
+        stage('Create Docker Service') {
+            steps {
+                    sh "docker service create -p 80:80 --name myservice aliyasjohn/portfolio:latest"
+                    sh "docker service ls"
+            }
+        }
+    }
+}
