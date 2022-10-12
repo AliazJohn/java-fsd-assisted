@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 12 13:21:45 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>316 seconds (316351 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testing.PageRefresh.PageRefreshTest()'><b>PageRefreshTest</b><br>Test class: com.testing.PageRefresh<br/>
+<a href="#Output-245703044" onClick='toggleBox("Output-245703044", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-245703044" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-245703044">
+Total Content Load Time while Scrolling: 142 milliseconds<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.testing.PageRefresh@2d710f1a</td></tr>
+<tr>
+<td title='com.testing.SearchProduct.searchProductTest()'><b>searchProductTest</b><br>Test class: com.testing.SearchProduct<br/>
+<a href="#Output-1404612586" onClick='toggleBox("Output-1404612586", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1404612586" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1404612586">
+Product Have Been Searched Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>com.testing.SearchProduct@4659191b</td></tr>
+<tr>
+<td title='com.testing.Loadtime.loadTimeTest()'><b>loadTimeTest</b><br>Test class: com.testing.Loadtime<br/>
+<a href="#Output-1290358063" onClick='toggleBox("Output-1290358063", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1290358063" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1290358063">
+Total Time for page load - 26547 milliseconds<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>com.testing.Loadtime@4c1909a3</td></tr>
+<tr>
+<td title='com.testing.ImageLoadScreenHeight.ImageLoadScreenHeightTest()'><b>ImageLoadScreenHeightTest</b><br>Test class: com.testing.ImageLoadScreenHeight<br/>
+<a href="#Output-1279852178" onClick='toggleBox("Output-1279852178", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1279852178" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1279852178">
+Images are loaded and visible till the screen height only<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.testing.ImageLoadScreenHeight@2dc54ad4</td></tr>
+<tr>
+<td title='com.testing.checkingScrollbar.scrollBarTest()'><b>scrollBarTest</b><br>Test class: com.testing.checkingScrollbar<br/>
+<a href="#Output-419923787" onClick='toggleBox("Output-419923787", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-419923787" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-419923787">
+Horizontal Scrollbar not present on page,Vertical Scrollbar is present on page.<br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>com.testing.checkingScrollbar@4b0d79fc</td></tr>
+<tr>
+<td title='com.testing.Homepage.homePageTest()'><b>homePageTest</b><br>Test class: com.testing.Homepage<br/>
+<a href="#Output-105663489" onClick='toggleBox("Output-105663489", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-105663489" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-105663489">
+Chrome Invoked and navigated to URL: https://www.flipkart.com/<br><br/>
+Page Navigated.<br><br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>com.testing.Homepage@43dac38f</td></tr>
+<tr>
+<td title='com.testing.navigatebottom.NavigateBottonTest()'><b>NavigateBottonTest</b><br>Test class: com.testing.navigatebottom<br/>
+<a href="#Output-1456464145" onClick='toggleBox("Output-1456464145", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1456464145" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1456464145">
+Navigated to the Bottom of the Page.<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>com.testing.navigatebottom@428640fa</td></tr>
+<tr>
+<td title='com.testing.Verifyimageload.ImageLoadTest()'><b>ImageLoadTest</b><br>Test class: com.testing.Verifyimageload<br/>
+<a href="#Output-175822565" onClick='toggleBox("Output-175822565", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-175822565" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-175822565">
+Image is not present before scrolling<br/>
+Image is present after scrolling<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.testing.Verifyimageload@55634720</td></tr>
+<tr>
+<td title='com.testing.DiffScreenResolution.DiffScreenResolutionTest()'><b>DiffScreenResolutionTest</b><br>Test class: com.testing.DiffScreenResolution<br/>
+<a href="#Output-421632334" onClick='toggleBox("Output-421632334", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-421632334" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-421632334">
+Different browsers and screen resolutions render it in the same way.<br/>
+</div>
+</td>
+<td></td>
+<td>58</td>
+<td>com.testing.DiffScreenResolution@d9345cd</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="TestCase1">
+    <classes>
+      <class name="com.testing.Homepage"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestCase2">
+    <classes>
+      <class name="com.testing.Loadtime"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestCase3">
+    <classes>
+      <class name="com.testing.SearchProduct"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestCase4">
+    <classes>
+      <class name="com.testing.checkScrollbar"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestCase5">
+    <classes>
+      <class name="com.testing.navigatebottom"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestCase6">
+    <classes>
+      <class name="com.testing.Verifyimageload"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestCase7">
+    <classes>
+      <class name="com.testing.ImageLoadScreenHeight"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestCase8">
+    <classes>
+      <class name="com.testing.PageRefresh"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestCase9">
+    <classes>
+      <class name="com.testing.DiffScreenResolution"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

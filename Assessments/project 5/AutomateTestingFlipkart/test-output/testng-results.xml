@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome Invoked and navigated to URL: https://www.flipkart.com/<br>]]>
+    </line>
+    <line>
+      <![CDATA[Page Navigated.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Images are loaded and visible till the screen height only]]>
+    </line>
+    <line>
+      <![CDATA[Product Have Been Searched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Image is not present before scrolling]]>
+    </line>
+    <line>
+      <![CDATA[Image is present after scrolling]]>
+    </line>
+    <line>
+      <![CDATA[Horizontal Scrollbar not present on page,Vertical Scrollbar is present on page.]]>
+    </line>
+    <line>
+      <![CDATA[Total Time for page load - 26547 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to the Bottom of the Page.]]>
+    </line>
+    <line>
+      <![CDATA[Different browsers and screen resolutions render it in the same way.]]>
+    </line>
+    <line>
+      <![CDATA[Total Content Load Time while Scrolling: 142 milliseconds]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-12T13:21:45 IST" name="Default suite" finished-at="2022-10-12T13:27:01 IST" duration-ms="316351">
+    <groups>
+    </groups>
+    <test started-at="2022-10-12T13:21:45 IST" name="Default test" finished-at="2022-10-12T13:27:01 IST" duration-ms="316351">
+      <class name="com.testing.Homepage">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testing.Homepage@43dac38f]" started-at="2022-10-12T13:21:45 IST" name="beforeMethod" finished-at="2022-10-12T13:21:48 IST" duration-ms="3703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="homePageTest()[pri:0, instance:com.testing.Homepage@43dac38f]" started-at="2022-10-12T13:21:48 IST" name="homePageTest" finished-at="2022-10-12T13:22:13 IST" duration-ms="24332" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Invoked and navigated to URL: https://www.flipkart.com/<br>]]>
+            </line>
+            <line>
+              <![CDATA[Page Navigated.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testing.Homepage@43dac38f]" started-at="2022-10-12T13:22:13 IST" name="afterMethod" finished-at="2022-10-12T13:22:15 IST" duration-ms="2366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testing.Homepage -->
+      <class name="com.testing.ImageLoadScreenHeight">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testing.ImageLoadScreenHeight@2dc54ad4]" started-at="2022-10-12T13:22:15 IST" name="beforeMethod" finished-at="2022-10-12T13:22:17 IST" duration-ms="1689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ImageLoadScreenHeightTest()[pri:0, instance:com.testing.ImageLoadScreenHeight@2dc54ad4]" started-at="2022-10-12T13:22:17 IST" name="ImageLoadScreenHeightTest" finished-at="2022-10-12T13:22:29 IST" duration-ms="12560" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Images are loaded and visible till the screen height only]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ImageLoadScreenHeightTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testing.ImageLoadScreenHeight@2dc54ad4]" started-at="2022-10-12T13:22:29 IST" name="afterMethod" finished-at="2022-10-12T13:22:33 IST" duration-ms="3450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testing.ImageLoadScreenHeight -->
+      <class name="com.testing.SearchProduct">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testing.SearchProduct@4659191b]" started-at="2022-10-12T13:22:33 IST" name="beforeMethod" finished-at="2022-10-12T13:22:34 IST" duration-ms="1619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchProductTest()[pri:0, instance:com.testing.SearchProduct@4659191b]" started-at="2022-10-12T13:22:34 IST" name="searchProductTest" finished-at="2022-10-12T13:23:01 IST" duration-ms="26695" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product Have Been Searched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testing.SearchProduct@4659191b]" started-at="2022-10-12T13:23:01 IST" name="afterMethod" finished-at="2022-10-12T13:23:04 IST" duration-ms="3203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testing.SearchProduct -->
+      <class name="com.testing.Verifyimageload">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testing.Verifyimageload@55634720]" started-at="2022-10-12T13:23:04 IST" name="beforeMethod" finished-at="2022-10-12T13:23:06 IST" duration-ms="1530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ImageLoadTest()[pri:0, instance:com.testing.Verifyimageload@55634720]" started-at="2022-10-12T13:23:06 IST" name="ImageLoadTest" finished-at="2022-10-12T13:23:34 IST" duration-ms="28310" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Image is not present before scrolling]]>
+            </line>
+            <line>
+              <![CDATA[Image is present after scrolling]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ImageLoadTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testing.Verifyimageload@55634720]" started-at="2022-10-12T13:23:34 IST" name="afterMethod" finished-at="2022-10-12T13:23:53 IST" duration-ms="19279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testing.Verifyimageload -->
+      <class name="com.testing.checkingScrollbar">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testing.checkingScrollbar@4b0d79fc]" started-at="2022-10-12T13:23:53 IST" name="beforeMethod" finished-at="2022-10-12T13:23:55 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="scrollBarTest()[pri:0, instance:com.testing.checkingScrollbar@4b0d79fc]" started-at="2022-10-12T13:23:55 IST" name="scrollBarTest" finished-at="2022-10-12T13:24:30 IST" duration-ms="35038" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Horizontal Scrollbar not present on page,Vertical Scrollbar is present on page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scrollBarTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testing.checkingScrollbar@4b0d79fc]" started-at="2022-10-12T13:24:30 IST" name="afterMethod" finished-at="2022-10-12T13:24:33 IST" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testing.checkingScrollbar -->
+      <class name="com.testing.Loadtime">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testing.Loadtime@4c1909a3]" started-at="2022-10-12T13:24:33 IST" name="beforeMethod" finished-at="2022-10-12T13:24:35 IST" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loadTimeTest()[pri:0, instance:com.testing.Loadtime@4c1909a3]" started-at="2022-10-12T13:24:35 IST" name="loadTimeTest" finished-at="2022-10-12T13:25:01 IST" duration-ms="26549" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Total Time for page load - 26547 milliseconds]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loadTimeTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testing.Loadtime@4c1909a3]" started-at="2022-10-12T13:25:01 IST" name="afterMethod" finished-at="2022-10-12T13:25:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testing.Loadtime -->
+      <class name="com.testing.navigatebottom">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testing.navigatebottom@428640fa]" started-at="2022-10-12T13:25:01 IST" name="beforeMethod" finished-at="2022-10-12T13:25:03 IST" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="NavigateBottonTest()[pri:0, instance:com.testing.navigatebottom@428640fa]" started-at="2022-10-12T13:25:03 IST" name="NavigateBottonTest" finished-at="2022-10-12T13:25:21 IST" duration-ms="18794" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to the Bottom of the Page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NavigateBottonTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testing.navigatebottom@428640fa]" started-at="2022-10-12T13:25:21 IST" name="afterMethod" finished-at="2022-10-12T13:25:25 IST" duration-ms="3421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testing.navigatebottom -->
+      <class name="com.testing.DiffScreenResolution">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testing.DiffScreenResolution@d9345cd]" started-at="2022-10-12T13:25:25 IST" name="beforeMethod" finished-at="2022-10-12T13:25:26 IST" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="DiffScreenResolutionTest()[pri:0, instance:com.testing.DiffScreenResolution@d9345cd]" started-at="2022-10-12T13:25:26 IST" name="DiffScreenResolutionTest" finished-at="2022-10-12T13:26:25 IST" duration-ms="58402" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Different browsers and screen resolutions render it in the same way.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DiffScreenResolutionTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testing.DiffScreenResolution@d9345cd]" started-at="2022-10-12T13:26:25 IST" name="afterMethod" finished-at="2022-10-12T13:26:28 IST" duration-ms="3372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testing.DiffScreenResolution -->
+      <class name="com.testing.PageRefresh">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testing.PageRefresh@2d710f1a]" started-at="2022-10-12T13:26:28 IST" name="beforeMethod" finished-at="2022-10-12T13:26:29 IST" duration-ms="1373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="PageRefreshTest()[pri:0, instance:com.testing.PageRefresh@2d710f1a]" started-at="2022-10-12T13:26:29 IST" name="PageRefreshTest" finished-at="2022-10-12T13:26:58 IST" duration-ms="28158" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Total Content Load Time while Scrolling: 142 milliseconds]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PageRefreshTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testing.PageRefresh@2d710f1a]" started-at="2022-10-12T13:26:58 IST" name="afterMethod" finished-at="2022-10-12T13:27:01 IST" duration-ms="3379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testing.PageRefresh -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.testing.DiffScreenResolution">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="DiffScreenResolutionTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.testing.DiffScreenResolution -->
+      <class name="com.testing.navigatebottom">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="NavigateBottonTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.testing.navigatebottom -->
+      <class name="com.testing.Homepage">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="homePageTest"/>
+        </methods>
+      </class> <!-- com.testing.Homepage -->
+      <class name="com.testing.checkScrollbar">
+        <methods>
+          <include name="scrollBarTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.testing.checkScrollbar -->
+      <class name="com.testing.SearchProduct">
+        <methods>
+          <include name="searchProductTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.testing.SearchProduct -->
+      <class name="com.testing.ImageLoadScreenHeight">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="ImageLoadScreenHeightTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.testing.ImageLoadScreenHeight -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
