@@ -1,0 +1,56 @@
+<div>
+    <style>
+        .txclass{
+            margin: 3%;
+            position: relative;
+        }
+  
+        .first-txt {
+            position: absolute;
+            top: 100px;
+            left: 170px;
+        }
+  
+        .second-txt {
+            position: absolute;
+            top: 135px;
+            left: 170px;
+        }
+        .third-txt {
+            position: absolute;
+            top: 170px;
+            left: 170px;
+        }
+        .fourth-txt {
+            position: absolute;
+            top: 205px;
+            left: 120px;
+        }
+    </style>
+   <div class="txclass">
+   <img src="../../assets/a23.jpg" alt="" srcset="">
+   <div class="first-txt"><h4>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{myadhar.name}}</h4></div>
+   <div class="second-txt"><h4>Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{myadhar.age}}</h4></div>
+   <div class="third-txt"><h4>Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{myadhar.address}}</h4></div>
+   <div class="fourth-txt"><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{myadhar.adharid}}</h6></div>
+</div>
+<br>
+<span style="color:green">{{msg}}</span><br>
+<input type="button"class="btn btn-info" value="Update My Aadhar" (click)="approvereq(myadhar)"/><br><br>
+<div *ngIf="flag">
+    <form (ngSubmit)="saveReqtoDB()">
+        <label>Adharid</label>&nbsp;&nbsp;
+        <input type="text" name="adharid" [(ngModel)]="myadhar.adharid" readonly>&nbsp;&nbsp;&nbsp;
+        <label>Email</label>&nbsp;&nbsp;
+        <input type="text" name="emailid" [(ngModel)]="myadhar.emailid" readonly><br/><br>
+        <label>Name</label>&nbsp;&nbsp;
+        <input type="text" name="name" [(ngModel)]="myadhar.name">&nbsp;&nbsp;&nbsp;
+        <label>Age</label>&nbsp;&nbsp;
+        <input type="number" name="age" [(ngModel)]="myadhar.age">&nbsp;&nbsp;&nbsp;
+        <label>Address</label>&nbsp;&nbsp;
+        <input type="text" name="address" [(ngModel)]="myadhar.address"><br/><br>
+        <input type="submit" class="btn btn-info" value="Update"/>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" class="btn btn-dark" value="reset"/><br/>
+    </form><br/>
+</div>
+</div>
